@@ -1,0 +1,16 @@
+package jr.h4ngout;
+
+import android.content.Intent;
+import android.support.v7.app.AppCompatActivity;
+import android.os.Bundle;
+
+public class GroupChat extends AppCompatActivity {
+
+    @Override
+    protected void onCreate(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+        setContentView(R.layout.activity_group_chat);
+        // Get the Intent that started this activity
+        Intent intent = getIntent();
+    }
+}

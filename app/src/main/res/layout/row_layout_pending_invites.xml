@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="50dp">
+
+    <Button
+        android:id="@+id/GroupName"
+        android:theme="@style/AppTheme.Button"
+        android:layout_width="230dp"
+        android:layout_height="match_parent"
+        android:layout_alignParentLeft="true"
+        android:gravity="center"
+        android:text="Janpaij"
+        android:textAppearance="?android:textAppearanceLarge" />
+
+    <ImageButton
+        android:id="@+id/search"
+        android:theme="@style/AppTheme.Button"
+        android:layout_width="75dp"
+        android:layout_height="match_parent"
+        android:layout_alignParentTop="true"
+        android:layout_toEndOf="@+id/GroupName"
+        android:layout_toRightOf="@+id/GroupName"
+        android:gravity="center"
+        android:text="Janpaij"
+        android:textAppearance="?android:textAppearanceLarge"
+        app:srcCompat="@android:drawable/checkbox_on_background" />
+
+    <ImageButton
+        android:id="@+id/cross"
+        android:theme="@style/AppTheme.Button"
+        android:layout_width="75dp"
+        android:layout_height="match_parent"
+        android:layout_toRightOf="@+id/search"
+        android:gravity="center"
+        android:text="Janpaij"
+        android:textAppearance="?android:textAppearanceLarge"
+        app:srcCompat="@android:drawable/ic_delete" />
+
+</RelativeLayout>

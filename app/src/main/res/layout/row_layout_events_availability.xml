@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent" android:layout_height="75dp">
+
+    <TextView
+        android:layout_height="match_parent"
+        android:background="@drawable/wood"
+        android:layout_width="120dp"
+        android:id="@+id/tx_title"
+        android:layout_alignParentLeft="true"
+        android:text="Janpaij"
+        android:gravity="center"
+        android:textAppearance="?android:textAppearanceLarge"
+        />
+
+    <TextView
+        android:id="@+id/tx_start"
+        android:background="@drawable/wood"
+        android:layout_width="100dp"
+        android:layout_height="match_parent"
+        android:layout_alignParentTop="true"
+        android:layout_toEndOf="@+id/tx_title"
+        android:layout_toRightOf="@+id/tx_title"
+        android:gravity="center"
+        android:text="Janpaij"
+        android:textAppearance="?android:textAppearanceLarge" />
+
+    <TextView
+        android:id="@+id/tx_end"
+        android:background="@drawable/wood"
+        android:layout_width="100dp"
+        android:layout_height="match_parent"
+        android:layout_toRightOf="@+id/tx_start"
+        android:gravity="center"
+        android:text="Janpaij"
+        android:textAppearance="?android:textAppearanceLarge" />
+
+    <ImageButton
+        android:id="@+id/hello"
+        android:layout_width="60dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:theme="@style/AppTheme.Button"
+        app:srcCompat="@android:drawable/ic_menu_delete" />
+
+</RelativeLayout>
